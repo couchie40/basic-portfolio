@@ -1,0 +1,111 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	width: 1260px;
+}
+
+header {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	height: 120px;
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+	position: relative;
+}
+
+.myname {
+	position: absolute;
+	bottom: 0;
+	left: 135px;
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	height: 55px;
+	width: 240px;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+.pagenav {
+	position: absolute;
+	bottom: 0;
+	right: 210px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	color: #b8ada9;
+	vertical-align: middle;
+	height: 60px;
+}
+
+main {
+
+	width: 1260px;
+	background-image: url("../images/vintage-concrete/vintage-concrete.png");
+	overflow: hidden;
+	display: block;
+	padding-bottom: 50px;
+
+}
+
+article {
+	float: left;
+    width: 580px;
+    margin-top: 35px;
+    margin-left: 140px;
+    background-color: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 25px 25px 25px 25px;
+    line-height: 200%
+}
+
+.h1class {
+	color: #4aaaa5;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-weight: bolder;
+	font-size: 25px;
+}
+
+.hr1 {
+	display: block;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #dddddd;
+}
+
+aside {
+	float: right;
+	width: 200px;
+	margin-top: 35px;
+	margin-right: 150px;
+	 background-color: #ffffff;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 25px 15px 25px 15px;
+    line-height: 200%
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+    color: #bdb1a0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 1260px;
+    height: 60px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 12px;
+    border-top: solid 10px;
+    border-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
